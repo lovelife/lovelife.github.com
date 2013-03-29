@@ -1,0 +1,74 @@
+---
+title: Mac-OSX10.8上Github+Jekyll搭建个人博客
+layout: post
+
+description: "Mac OSx10.8.4 Jekyll Github结合搭建个人博客"
+
+categories:
+  - Web
+  
+tags:
+  - Mac 
+  - Jekyll 
+  - Github 
+  - Blog
+ 
+---
+
+
+
+在Mac－OSX10.8.4上Github＋Jekyll搭建个人博客。
+
+###一.安装环境
+安装git、ruby 2.0.0p0。
+
+###二.在Github创建Repository
+创建${USERNAME}.github.com的Repository。
+
+###三.创建好Jekyll格式的文档
+这里，可以直接克隆本博客到自己的Repository。
+
+	$ git clone https://github.com/lovelife/lovelife.github.com.git USERNAME.github.com
+	$ cd USERNAME.github.com
+	$ git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git
+	$ git push origin master //（为什么我需要用git push -f origin master?）
+
+1.推荐参考[Github Pages 及 Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+
+2.关于Jekyll usage 可以看[官方文档](https://github.com/mojombo/jekyll/wiki/usage)
+
+3.关于Jekyll Pygments代码高亮，以及评论系统的使用，可参考：
+[使用jekyll来写博客的一些心得](http://webfrogs.me/2012/12/20/use-jekyll/)
+
+
+###四.Run Jekyll Locally
+#####**1.安装Jekyll到本地**
+
+	gem install jekyll
+#####**2.访问127.0.0.1:4000预览**
+
+	jekyll --server		
+###五.Create a Post 
+
+	rake post[title]
+
+###六.Publish
+	
+	git pull origin master //先同步远程文件，后面的参数会自动连接你远程的文件
+	git status //查看本地自己修改了多少文件
+	git add .//添加远程不存在的git文件
+	git commit -m "what I want told to someone"
+	git push origin master //更新到远程服务器上
+		
+###参考
+1.[在Mac OS X上架设属于你的Octopress](http://blog.martianz.cn/article/2012-01-25-set-up-octopress)
+
+2.[像极客一样写博客](http://zyzhang.github.com/blog/2012/08/29/blogging-like-a-geek/)
+
+3.[jekyll下用pygment设置语法高亮](http://endle.gitcafe.com/2013/01/20/jekyllpygment/)
+
+4.[Jekyll代码高亮](http://youngflying.com/2012/09/05/jekyll-code-highlight/)
+
+
+
+
