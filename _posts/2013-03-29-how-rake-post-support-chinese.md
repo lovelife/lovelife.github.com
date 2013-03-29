@@ -15,7 +15,7 @@ tags:
 
 ---
 
-###问题描述
+####问题描述
 用jekyll写博客时，通过下面命令创建文档
 	
 	rake post title="title_name"
@@ -26,5 +26,5 @@ tags:
 	
 其中title_name不能含有空格，也不能有中文。那么如何使得title_name支持中文呢？
 
-###解决方法
+####解决方法
 		
