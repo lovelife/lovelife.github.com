@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Question:Jekyll rake post时中文de支持"
+title: "如何使Jekyll rake a post 时支持中文"
 
 description: Jekyll rake post title 中文的支持
 
@@ -16,7 +16,7 @@ tags:
 ---
 
 ###问题描述
-用jekyll写博客时，通过下面命令新建文档
+用jekyll写博客时，通过下面命令创建文档
 	
 	rake post title="title_name"
 	
