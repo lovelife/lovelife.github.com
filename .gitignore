@@ -1,0 +1,12 @@
+_site/*
+_theme_packages/*
+_posts/*Question*
+_posts/*question*
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
