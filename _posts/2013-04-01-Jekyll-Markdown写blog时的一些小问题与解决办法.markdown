@@ -189,7 +189,7 @@ Markdown有没有类似C语言的中的**代码注释**功能呢？既，让有�
 <h3 id="one_key_write_blog">
 八、一键写博客
 </h3>
-现在用Github 搭建的Jekyll博客，编辑器用Markdown，写博客时，有下面几个重复步骤：
+现在用Github 搭建的Jekyll博客，编辑器用Mou，写博客时，有下面几个重复步骤：
 
 	1、terminal到Blog的root目录。
 
