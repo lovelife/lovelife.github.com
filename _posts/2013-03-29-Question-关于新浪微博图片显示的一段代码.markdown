@@ -1,0 +1,23 @@
+---
+title: Question-关于新浪微博图片显示的一段代码
+layout: post
+
+description: 
+
+categories:
+  - Web
+  
+tags:
+  - jekyll
+  - question
+  
+---
+
+###问题
+我的微博能生成下面图片吗？
+
+{% highlight html %}
+
+[![新浪微博](http://service.t.sina.com.cn/widget/qmd/1713195262/f78fbcd2/1.png)](http://weibo.com/u/1713195262?s=6uyXnP)
+
+{% endhighlight %}
