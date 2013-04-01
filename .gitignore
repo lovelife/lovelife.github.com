@@ -1,6 +1,9 @@
 _site/*
 _theme_packages/*
 _posts/*gaojuan*
+_posts/*question*
+_posts/*Question*
+
 
 Thumbs.db
 .DS_Store
