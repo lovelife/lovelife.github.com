@@ -180,13 +180,12 @@ Markdown有没有类似C语言的中的**代码注释**功能呢？既，让有�
 
 	RPC failed; result=55, HTTP code = 0
 
-解决办法：
+原因是，上传文件太大，postBuffer默认设置不够。解决办法：
 
 	git config http.postBuffer 524288000	
 	git push origin master
 	
-原因是，上传文件太大，postBuffer默认设置不够。
-
+	
 
 <h3 id="one_key_write_blog">
 八、一键写博客
