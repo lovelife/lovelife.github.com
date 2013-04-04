@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Mac使用技巧"
+description: ""
+categories:
+- Mac
+tags:
+- question
+
+
+---
+
+使用Mac OSX 10.8.3 一小段时间了，这里，纪录碰到的一些问题，和使用的一些技巧。
+
+*	[1、Mac上如何下载youku、tudou上的视频](#download_media)
+
+======================万恶的分割性========================
+<h4 id="download_media">
+1、如何下载youku、tudou上面的视频
+</h4>
+**方法1:Safari下载**
+
+在视频连接youku（或tudou）之后加xia访问即可，如，老罗的锤子系统发布会视频youku地址是：
+	
+	http://v.youku.com/v_show/id_XNTM1ODU5MDI4.html
+	
+要下载，在youku后面添加xia，回车，浏览器便可以下载了：
+	
+	http://v.youkuxia.com/v_show/id_XNTM1ODU5MDI4.html
+
+存在问题：
+	
+	视频的高清版本，优酷会进行分割，每个约25M。这样，一个完整的视频被分割成多个，下载和使用起来很麻烦，有办法一次整个下载吗？
+		
+**方法2、Realplayer下载**
+
+打开Realplayer，输入视频地址。
+
+
