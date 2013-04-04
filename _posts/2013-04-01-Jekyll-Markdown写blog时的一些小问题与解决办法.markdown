@@ -15,6 +15,8 @@ tags:
 
 ---
  
+在写博客时，用到一些工具Jekyll Markdown Github Git ，几乎都是初次使用，遇到不少问题，这里做个纪录，方便后续查阅，以及深入理解！
+ 
 *   [Git删除文件](#git_rm_file)
 *   [使用.gitignore](#git_ignore)
 *   [rake a new post](#rake_a_new_post)
@@ -26,7 +28,7 @@ tags:
 
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
   
-在写博客时，用到一些工具Jekyll Markdown Github Git ，几乎都是初次使用，遇到不少问题，这里做个纪录，方便后续查阅，以及深入理解！
+
 
 
 <h3 id="git_rm_file">
