@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "本周听的一些讲座"
+title: "上一周听的一些讲座碎片记录"
 description: ""
 categories:
 - 随笔
