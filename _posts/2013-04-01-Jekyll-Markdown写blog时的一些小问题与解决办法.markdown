@@ -25,6 +25,7 @@ tags:
 *   [Markdown注释功能](#markdown_comments)
 *   [Git push error result＝55](#git_error_55)
 *   [一键写博客](#one_key_write_blog)
+*   [超链接](#hyper_link)
 
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
   
@@ -203,6 +204,18 @@ Markdown有没有类似C语言的中的**代码注释**功能呢？既，让有�
 能否，一键完成1到3操作，直接进入编辑。然后一键运行4，显示预览结果呢？  
 
 用到，Automator ？AppleScript？Cocoa ？或是其他实现方法？
+
+
+<h3 id="hyper_link">
+九、超链接使用
+</h3>
+
+	[Love](/media/files/2013/03/30/lovelife.jpg)
+	[Unix](/media/files/2013/04/05/Unix四十年.pdf)
+	
+[Love](/media/files/2013/03/30/lovelife.jpg)
+[Unix](/media/files/2013/04/05/Unix四十年.pdf)	
+
 
 **有待进一步解决！**
 
