@@ -20,7 +20,7 @@ tags:
 > 
 
 
-```
+
 {% highlight c %}
 #include <stdio.h>
 
@@ -36,6 +36,6 @@ int main(int argc, char *argv[])
     printf("%d",s);
 }
 {% endhighlight %}
-```
+
 
 [1001]:http://www.patest.cn/contests/pat-b-practise/1001
