@@ -1,7 +1,6 @@
 ---
 title: links
 layout: page
-comments: no
 ---
 
 [张志强](http://zhiqiang.org)    
