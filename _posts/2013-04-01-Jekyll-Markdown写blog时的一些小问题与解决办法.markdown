@@ -32,9 +32,9 @@ tags:
 
 
 
-<h3 id="git_rm_file">
+<h4 id="git_rm_file">
 一、Git删除文件
-</h3>
+</h4>
 
 需求：我Github repo lovelife.github.com 上_posts目录下有些文件要删除，怎么处理？
 
@@ -52,9 +52,9 @@ tags:
 	git push origin master 
 	
 	
-<h3 id="git_ignore">
+<h4 id="git_ignore">
 二、使用.gitignore
-</h3>
+</h4>
 
 使用Git时，有些文件并不需要上传到Github进行版本跟踪，如，.DS_Store，_sites文件夹等。
 
@@ -67,9 +67,9 @@ tags:
 注意，已上传的文件.gitignore并不会去删除。所以，在新建repo时，要先创建提交.gitignore文件。
 
 
-<h3 id="rake_a_new_post">
+<h4 id="rake_a_new_post">
 三、rake a new post 
-</h3>
+</h4>
 新建post，命令如下：
 
 	rake post title=title_name
@@ -112,9 +112,9 @@ tags:
 
 
 
-<h3 id="insert_picture">
+<h4 id="insert_picture">
 四、插入图片
-</h3>
+</h4>
 
 ####Markdown语法插入图片
 
@@ -136,9 +136,9 @@ tags:
 </span>
 
 
-<h3 id="insert_media">
+<h4 id="insert_media">
 五、插入多媒体
-</h3>
+</h4>
 1、插入虾米网音乐
 	
 	<embed src="http://www.xiami.com/widget/0_1771512762/	singlePlayer.swf" type="application/x-shockwave-flash" 	width="257" height="33" wmode="transparent"></embed>
@@ -157,9 +157,9 @@ tags:
 <embed src="http://player.youku.com/player.php/sid/XNDMzNDAzNjQw/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed>
 
 
-<h3 id="markdown_comments">
+<h4 id="markdown_comments">
 六、Markdown注释
-</h3>
+</h4>
 
 有时候，用Markdown写的动西，有些临时的想象、突发的灵感，不想展示出来，也不想删除，如何注释呢？
 
@@ -170,9 +170,9 @@ Markdown有没有类似C语言的中的**代码注释**功能呢？既，让有�
 	~~Strikethrough~~
 效果：~~Strikethrough~~。
 
-<h3 id="git_error_55">
+<h4 id="git_error_55">
 七、Git push error result＝55
-</h3>
+</h4>
 
 放了一个约7M的音乐文件
 	
@@ -188,9 +188,9 @@ Markdown有没有类似C语言的中的**代码注释**功能呢？既，让有�
 	
 	
 
-<h3 id="one_key_write_blog">
+<h4 id="one_key_write_blog">
 八、一键写博客
-</h3>
+</h4>
 现在用Github 搭建的Jekyll博客，编辑器用Mou，写博客时，有下面几个重复步骤：
 
 	1、terminal到Blog的root目录。
@@ -206,9 +206,9 @@ Markdown有没有类似C语言的中的**代码注释**功能呢？既，让有�
 用到，Automator ？AppleScript？Cocoa ？或是其他实现方法？
 
 
-<h3 id="hyper_link">
+<h4 id="hyper_link">
 九、超链接使用
-</h3>
+</h4>
 
 	[Love](/media/files/2013/03/30/lovelife.jpg)
 	[Unix](/media/files/2013/04/05/Unix四十年.pdf)
