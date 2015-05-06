@@ -18,7 +18,7 @@ tags:
 
 > 水题，太简单
 
-{% highlight c linenos %}
+{% highlight ruby linenos %}
 #include <stdio.h>
 
 int main(int argc, char *argv[]) 
