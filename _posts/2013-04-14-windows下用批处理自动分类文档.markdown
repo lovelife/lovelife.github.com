@@ -2,12 +2,12 @@
 layout: post
 title: "windows下用批处理自动分类文档"
 description: ""
+
 categories:
 - Windows
+
 tags:
-- 批处理
 - bat
-- 自动化
 
 
 ---

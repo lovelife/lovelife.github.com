@@ -1,0 +1,14 @@
+---
+layout: post
+title: "《回农大如听一首歌》"
+description: ""
+categories:
+- 随笔
+
+tags:
+- 诗歌
+
+
+---
+
+[Go](http://mp.weixin.qq.com/s?__biz=MjM5NjkyNzc2MQ==&mid=200761893&idx=1&sn=25c5cf7c45fd681d5be0dc905bb0b058#rd)

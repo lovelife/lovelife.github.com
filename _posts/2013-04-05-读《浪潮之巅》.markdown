@@ -2,12 +2,12 @@
 layout: post
 title: "读《浪潮之巅》"
 description: ""
+
 categories:
-- 计算机史
+- 读过的书
+
 tags:
-- 计算机
-- 历史
-- 
+- 计算机史
 
 
 ---
