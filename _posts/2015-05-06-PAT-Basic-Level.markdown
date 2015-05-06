@@ -16,7 +16,7 @@ tags:
 > 
 > 水题，很简单
 
-~~~c lineos
+~~~c 
 include <stdio.h>
 int main(int argc, char *argv[]) 
 {
