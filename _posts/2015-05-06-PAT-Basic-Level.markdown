@@ -2,8 +2,12 @@
 layout: post
 title: "PAT Basic Level Practice"
 description: "PAT乙级考试练习题"
-categories:PAT
-tags:acm
+categories:
+- PAT
+
+tags:
+- acm
+- 
 
 ---
 
