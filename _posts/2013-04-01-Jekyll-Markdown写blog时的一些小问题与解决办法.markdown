@@ -3,7 +3,7 @@ layout: post
 title: "Jekyll Markdown Github Git写blog时的一些小问题与解决办法"
 description: ""
 categories:
-- Web
+- 前端
 
 tags:
 - jekyll
