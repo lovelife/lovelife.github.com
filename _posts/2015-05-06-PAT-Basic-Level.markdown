@@ -14,11 +14,12 @@ tags:
 ---
 
 ## [1001]
-害死人不偿命的(3n+1)猜想 (15)
 
-> 水题，太简单
+> 害死人不偿命的(3n+1)猜想 (15)
+> 
+> 水题,简单
 
-{% highlight ruby linenos %}
+
 #include <stdio.h>
 
 int main(int argc, char *argv[]) 
@@ -32,6 +33,5 @@ int main(int argc, char *argv[])
     }
     printf("%d",s);
 }
-{% endhighlight %}
 
 [1001]:http://www.patest.cn/contests/pat-b-practise/1001
