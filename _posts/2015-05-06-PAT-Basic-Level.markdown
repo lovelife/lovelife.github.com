@@ -13,13 +13,15 @@ tags:
 
 ---
 
-### [1001害死人不偿命的(3n+1)猜想 (15)][1001]
+#### [1001害死人不偿命的(3n+1)猜想 (15)][1001]
 
 > 
-> 水题,简单
+> 水题，简单
 > 
+
 
 ```
+{% highlight c %}
 #include <stdio.h>
 
 int main(int argc, char *argv[]) 
@@ -33,6 +35,7 @@ int main(int argc, char *argv[])
     }
     printf("%d",s);
 }
+{% endhighlight %}
 ```
 
 [1001]:http://www.patest.cn/contests/pat-b-practise/1001
