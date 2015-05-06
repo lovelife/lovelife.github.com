@@ -1,10 +1,4 @@
 _site/*
-_theme_packages/*
-_posts/*gaojuan*
-_posts/*question*
-_posts/*Question*
--posts/sloved/*
--posts/todo
 
 Thumbs.db
 .DS_Store

@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
-url: http://lovelife.github.com
+url: http://lovelife.github.io
 author: lovelife
 pygments: true
 safe: true
