@@ -1,11 +1,6 @@
-_site/*
+!_posts/*
 
-Thumbs.db
-.DS_Store
+_sites/*
 
-!.gitkeep
 
-.rbenv-version
-.rvmrc
-.Ulysses-Group.plist
-.PAT.Ulysses_Public_Filter
+
