@@ -11,6 +11,6 @@ tags:
 
 ---
 
-[Go][1]网址没有显示
+[Go][1]
 
 [1]:	http://mp.weixin.qq.com/s?__biz=MjM5NjkyNzc2MQ==&mid=200761893&idx=1&sn=25c5cf7c45fd681d5be0dc905bb0b058#rd
