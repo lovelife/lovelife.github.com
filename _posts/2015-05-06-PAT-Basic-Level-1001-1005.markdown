@@ -11,12 +11,17 @@ tags:
 
 ---
 
+* [x] 1001
+* [x] 1002
+* [x] 1003
+* [x] 1004
+* [ ] 1005
 
 >[1001.害死人不偿命的(3n+1)猜想 (15)][1]
 >
 > 题意：任意一个不超过1000的正整数n,偶数则减半，奇数则3*n+1再减半，求多少步变成1.
 > 
-> Key：直接按题意计算，十分简单。
+> 解答：直接按题意计算，十分简单。
 
 ~~~c 
 #include <stdio.h>
@@ -47,7 +52,7 @@ int main(int argc, char *argv[])
 > >
 > >yi san wu
 > 
-> Key：把n的每一位相加得到sum，再根据sum的每一位，输出对应数字拼音.
+> 解答：把n的每一位相加得到sum，再根据sum的每一位，输出对应数字拼音.
 
 ```c
 #include<stdio.h>
@@ -76,13 +81,13 @@ int main()
 >
 > 题意：给定字符串满足下面条件则答案正确输出YES，否则输出NO.
 > 
-> 1. 字符串中必须仅有P, A, T这三种字符，不可以包含其它字符；
+>> 1. 字符串中必须仅有P, A, T这三种字符，不可以包含其它字符；
 > 
-> 2. 任意形如 xPATx 的字符串都可以获得“答案正确”，其中 x 或者是空字符串，或者是仅由字母 A 组成的字符串；
+>> 2. 任意形如 xPATx 的字符串都可以获得“答案正确”，其中 x 或者是空字符串，或者是仅由字母 A 组成的字符串；
 > 
-> 3. 如果 aPbTc 是正确的，那么 aPbATca 也是正确的，其中 a, b, c 均或者是空字符串，或者是仅由字母 A 组成的字符串。
+>> 3. 如果 aPbTc 是正确的，那么 aPbATca 也是正确的，其中 a, b, c 均或者是空字符串，或者是仅由字母 A 组成的字符串。
 >
->Key: 根据xPATx正确，aPbTc在b=A,a=c的情况下正确
+>解答: 根据xPATx正确，aPbTc在b=A,a=c的情况下正确
 >
 >而aPbTc正确，则aPbATca正确，则aPbAATcaa正确，依次aPbTc有每次b后扩展一个A则c后扩展一个a
 >
@@ -152,8 +157,68 @@ int main()
     return 0;
 }
 ```
+>
+>[1004. 成绩排名 (20)][4]
+>
+>题意：读入n名学生的姓名、学号、成绩，分别输出成绩最高和成绩最低学生的姓名和学号
+>
+>解答：qsort排序即可。注意qsort中compare函数：
+>
+>>int compare(const void *a, const void *p)
+>>
+>>return *a - *b; // 1,2,3,4
+>>
+>>return *b - *a; // 4, 3, 2, 1
+>>
+>>也就是return值大于0则交换
 
+```c
+#include<stdio.h>
+#include<stdlib.h>
+
+typedef struct _student
+{
+    char name[11];
+    char NO[11];
+    int  score;
+}Student;
+
+int compare(const void *p, const void *q)
+{
+    Student *a = (Student *)p;
+    Student *b = (Student *)q;
+    
+    return a->score - b->score;
+}
+
+int main()
+{
+    Student stu[1000];
+    int n, i;
+    
+    scanf("%d", &n);
+    for( i = 0; i < n; i++)
+    {
+        scanf("%s %s %d",stu[i].name, stu[i].NO, &stu[i].score);
+    }
+    
+    qsort(stu,n,sizeof(stu[0]), compare);
+    
+    printf("%s %s\n", stu[n-1].name, stu[n-1].NO);
+    printf("%s %s\n",stu[0].name, stu[0].NO);
+    
+    
+    return 0;
+}
+
+```
+
+>[1005. 继续(3n+1)猜想 (25)][5]
+>
+>
 
 [1]:http://www.patest.cn/contests/pat-b-practise/1001
 [2]:http://www.patest.cn/contests/pat-b-practise/1002
 [3]:http://www.patest.cn/contests/pat-b-practise/1003
+[4]:http://www.patest.cn/contests/pat-b-practise/1004
+[5]:http://www.patest.cn/contests/pat-b-practise/1005
