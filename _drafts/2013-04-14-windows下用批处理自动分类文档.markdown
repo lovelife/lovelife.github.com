@@ -1,0 +1,29 @@
+---
+layout: post
+title: "windows下用批处理自动分类文档"
+description: ""
+
+categories:
+- Windows
+
+tags:
+- bat
+
+
+---
+
+朋友有一个需求：
+	
+	一大约800M的文档压缩包，需要按类型分类文档，并统计个数。
+	
+手动去处理，肯定是不现实的。可以解压后，用windows搜索功能，按照*.doc、 *.txt … 去依次搜索，但可能遗漏掉类型，也容易出错。更好的办法是，写个批处理，一键运行，让电脑自己去处理。
+
+如何依次遍历文件
+	
+	for /r %%i in () do ()
+如找到压缩包后解压
+	
+	for /r %%i in (*.rar *.zip *.7z) do (
+		call "Winrar.exe" X -Y %%i
+	)
+
