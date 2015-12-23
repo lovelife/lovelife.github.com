@@ -5,7 +5,7 @@ url: http://lovelife.github.io
 author: lovelife
 syntax-highlighting:
   enabled : true
-  css: master/media/css/pygments_manni.css
+  
 safe: true
 paginate: 16
 auto: true
