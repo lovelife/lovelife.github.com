@@ -3,8 +3,9 @@ markdown: redcarpet
 permalink: /:year/:month/:day/:title/
 url: http://lovelife.github.io
 author: lovelife
-highlighter: pygments
-pygments: true
+syntax-highlighting:
+  enabled : true
+  css: master/media/css/pygments_emacs.css
 safe: true
 paginate: 16
 auto: true
