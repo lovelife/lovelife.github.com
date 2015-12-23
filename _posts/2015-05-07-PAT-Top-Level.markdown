@@ -23,3 +23,11 @@ int function1()
   console.log("Showing the line number rendering of code using gh-pages-blog.");
 }
 {% endhighlight %}
+
+```C++
+int function1() 
+{
+  int a = 5 + 4;
+  console.log("Showing the line number rendering of code using gh-pages-blog.");
+}
+```
