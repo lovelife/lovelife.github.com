@@ -4,6 +4,10 @@ permalink: /:year/:month/:day/:title/
 url: http://lovelife.github.io
 author: lovelife
 
+syntax-highlighting:
+  enabled : true
+  css: media/css/pygments_monokai.css
+  
 safe: true
 paginate: 16
 auto: true
